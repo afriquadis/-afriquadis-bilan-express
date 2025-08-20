@@ -94,13 +94,13 @@ export default function CartPage() {
                   <div className="flex items-center gap-2">
                     <button onClick={() => {
                       const next = [...items];
-                      next[idx].quantity = Math.max(1, next[idx].quantity - 1);
+                      if (next[idx]) next[idx].quantity = Math.max(1, next[idx].quantity - 1);
                       save(next);
                     }} className="px-3 py-1 rounded bg-gray-100 hover:bg-gray-200">-</button>
                     <span className="w-8 text-center">{it.quantity}</span>
                     <button onClick={() => {
                       const next = [...items];
-                      next[idx].quantity += 1;
+                      if (next[idx]) next[idx].quantity += 1;
                       save(next);
                     }} className="px-3 py-1 rounded bg-gray-100 hover:bg-gray-200">+</button>
                     <button onClick={() => {
