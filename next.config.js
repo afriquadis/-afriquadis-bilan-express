@@ -9,9 +9,9 @@ const nextConfig = {
   // Configuration ultra-minimale pour éviter ChunkLoadError
   reactStrictMode: true,
   poweredByHeader: false,
-  // Base path pour GitHub Pages (sera modifié selon votre nom de repo)
-  basePath: process.env.NODE_ENV === 'production' ? '/afriquadis-diagnostic' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/afriquadis-diagnostic/' : '',
+  // Base path pour GitHub Pages
+  basePath: process.env.NODE_ENV === 'production' ? '/afriquadis-bilan-express' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/afriquadis-bilan-express/' : '',
 };
 
 module.exports = nextConfig;
