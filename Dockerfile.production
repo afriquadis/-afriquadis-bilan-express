@@ -1,0 +1,71 @@
+# Dockerfile de Production AFRIQUADIS
+FROM node:18-alpine AS base
+
+# Dépendances de base
+RUN apk add --no-cache libc6-compat
+
+# Étape de build
+FROM base AS deps
+WORKDIR /app
+
+# Copie des fichiers de dépendances
+COPY package.json package-lock.json* ./
+COPY prisma ./prisma/
+
+# Installation des dépendances
+RUN npm ci --only=production && npm cache clean --force
+
+# Étape de build
+FROM base AS builder
+WORKDIR /app
+
+# Copie des dépendances
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+
+# Variables d'environnement de build
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+
+# Génération Prisma
+RUN npx prisma generate
+
+# Build de l'application
+RUN npm run build
+
+# Étape de production
+FROM base AS runner
+WORKDIR /app
+
+# Variables d'environnement
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+
+# Création de l'utilisateur non-root
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+# Copie des fichiers nécessaires
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+
+# Copie des fichiers Prisma
+COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/src/generated ./src/generated
+
+# Changement de propriétaire
+RUN chown -R nextjs:nodejs /app
+
+# Utilisateur non-root
+USER nextjs
+
+# Exposition du port
+EXPOSE 3000
+
+# Variables d'environnement
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
+
+# Démarrage de l'application
+CMD ["node", "server.js"]

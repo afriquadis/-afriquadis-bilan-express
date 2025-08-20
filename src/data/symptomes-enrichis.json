@@ -1,0 +1,434 @@
+{
+  "symptoms": [
+    {
+      "id": "maux_tete_frequents",
+      "name": "Maux de tête fréquents",
+      "category": "neurologique"
+    },
+    {
+      "id": "vertiges",
+      "name": "Vertiges",
+      "category": "neurologique"
+    },
+    {
+      "id": "fatigue",
+      "name": "Fatigue",
+      "category": "general"
+    },
+    {
+      "id": "vision_floue",
+      "name": "Vision floue",
+      "category": "ophtalmologique"
+    },
+    {
+      "id": "palpitations",
+      "name": "Palpitations",
+      "category": "cardiovasculaire"
+    },
+    {
+      "id": "saignements_nez",
+      "name": "Saignements de nez",
+      "category": "general"
+    },
+    {
+      "id": "soif_excessive",
+      "name": "Soif excessive",
+      "category": "metabolique"
+    },
+    {
+      "id": "urines_frequentes",
+      "name": "Urines fréquentes",
+      "category": "urologique"
+    },
+    {
+      "id": "amaigrissement_inexplique",
+      "name": "Amaigrissement inexpliqué",
+      "category": "general"
+    },
+    {
+      "id": "plaies_cicatrisation_lente",
+      "name": "Plaies qui cicatrisent mal",
+      "category": "dermatologique"
+    },
+    {
+      "id": "palem",
+      "name": "Pâleur",
+      "category": "hematologique"
+    },
+    {
+      "id": "essoufflement",
+      "name": "Essoufflement",
+      "category": "respiratoire"
+    },
+    {
+      "id": "ongles_cassants",
+      "name": "Ongles cassants",
+      "category": "dermatologique"
+    },
+    {
+      "id": "difficulte_uriner",
+      "name": "Difficulté à uriner",
+      "category": "urologique"
+    },
+    {
+      "id": "besoin_frequent_uriner",
+      "name": "Besoin fréquent d'uriner",
+      "category": "urologique"
+    },
+    {
+      "id": "jet_urine_faible",
+      "name": "Jet d'urine faible",
+      "category": "urologique"
+    },
+    {
+      "id": "douleur_miction",
+      "name": "Douleur à la miction",
+      "category": "urologique"
+    },
+    {
+      "id": "sifflements_respiratoires",
+      "name": "Sifflements respiratoires",
+      "category": "respiratoire"
+    },
+    {
+      "id": "toux_persistante",
+      "name": "Toux persistante",
+      "category": "respiratoire"
+    },
+    {
+      "id": "oppression_thoracique",
+      "name": "Oppression thoracique",
+      "category": "respiratoire"
+    },
+    {
+      "id": "fatigue_persistante",
+      "name": "Fatigue persistante",
+      "category": "general"
+    },
+    {
+      "id": "perte_poids_inexpliquee",
+      "name": "Perte de poids inexpliquée",
+      "category": "general"
+    },
+    {
+      "id": "douleurs_localisees",
+      "name": "Douleurs localisées",
+      "category": "general"
+    },
+    {
+      "id": "boule_masse_anormale",
+      "name": "Boule ou masse anormale",
+      "category": "general"
+    },
+    {
+      "id": "saignements_inhabituels",
+      "name": "Saignements inhabituels",
+      "category": "general"
+    },
+    {
+      "id": "amaigrissement_visible",
+      "name": "Amaigrissement visible",
+      "category": "general"
+    },
+    {
+      "id": "faiblesse_musculaire",
+      "name": "Faiblesse musculaire",
+      "category": "general"
+    },
+    {
+      "id": "perte_appetit",
+      "name": "Perte d'appétit",
+      "category": "general"
+    },
+    {
+      "id": "crises_convulsives",
+      "name": "Crises convulsives",
+      "category": "neurologique"
+    },
+    {
+      "id": "perte_conscience_temporaire",
+      "name": "Perte de conscience temporaire",
+      "category": "neurologique"
+    },
+    {
+      "id": "tremblements_involontaires",
+      "name": "Tremblements involontaires",
+      "category": "neurologique"
+    },
+    {
+      "id": "regard_fixe_absence",
+      "name": "Regard fixe ou absence",
+      "category": "neurologique"
+    },
+    {
+      "id": "jaunisse",
+      "name": "Jaunisse (peau et yeux jaunes)",
+      "category": "hepatique"
+    },
+    {
+      "id": "urines_foncees",
+      "name": "Urines foncées",
+      "category": "urologique"
+    },
+    {
+      "id": "douleur_abdomen_droit",
+      "name": "Douleur côté droit de l'abdomen",
+      "category": "digestif"
+    },
+    {
+      "id": "nausees",
+      "name": "Nausées",
+      "category": "digestif"
+    },
+    {
+      "id": "vomissements",
+      "name": "Vomissements",
+      "category": "digestif"
+    },
+    {
+      "id": "douleur_estomac",
+      "name": "Douleur à l'estomac",
+      "category": "digestif"
+    },
+    {
+      "id": "brulure_gastrique",
+      "name": "Brûlure gastrique",
+      "category": "digestif"
+    },
+    {
+      "id": "ballonnements",
+      "name": "Ballonnements",
+      "category": "digestif"
+    },
+    {
+      "id": "difficulte_concevoir",
+      "name": "Difficulté à concevoir",
+      "category": "gynecologique"
+    },
+    {
+      "id": "cycles_menstruels_irreguliers",
+      "name": "Cycles menstruels irréguliers",
+      "category": "gynecologique"
+    },
+    {
+      "id": "douleurs_pelviennes",
+      "name": "Douleurs pelviennes",
+      "category": "gynecologique"
+    },
+    {
+      "id": "regles_abondantes_faibles",
+      "name": "Règles très abondantes ou très faibles",
+      "category": "gynecologique"
+    },
+    {
+      "id": "picotements",
+      "name": "Picotements",
+      "category": "ophtalmologique"
+    },
+    {
+      "id": "sensibilite_lumiere",
+      "name": "Sensibilité à la lumière",
+      "category": "ophtalmologique"
+    },
+    {
+      "id": "rougeur_demangeaisons_oculaires",
+      "name": "Rougeur ou démangeaisons oculaires",
+      "category": "ophtalmologique"
+    },
+    {
+      "id": "difficulte_atteindre_orgasme",
+      "name": "Difficulté à atteindre l'orgasme",
+      "category": "gynecologique"
+    },
+    {
+      "id": "douleur_rapports",
+      "name": "Douleur pendant les rapports",
+      "category": "gynecologique"
+    },
+    {
+      "id": "baisse_desir_sexuel",
+      "name": "Baisse de désir sexuel",
+      "category": "gynecologique"
+    },
+    {
+      "id": "douleur_articulaire",
+      "name": "Douleur articulaire",
+      "category": "rhumatologique"
+    },
+    {
+      "id": "raideur",
+      "name": "Raideur",
+      "category": "rhumatologique"
+    },
+    {
+      "id": "gonflement_articulations",
+      "name": "Gonflement des articulations",
+      "category": "rhumatologique"
+    },
+    {
+      "id": "diminution_mobilite",
+      "name": "Diminution de la mobilité",
+      "category": "rhumatologique"
+    },
+    {
+      "id": "gonflement_pieds_chevilles",
+      "name": "Gonflement des pieds / chevilles",
+      "category": "cardiovasculaire"
+    },
+    {
+      "id": "dysfunction_erectile",
+      "name": "Dysfonction érectile",
+      "category": "urologique"
+    },
+    {
+      "id": "ejaculation_precoce",
+      "name": "Éjaculation précoce",
+      "category": "urologique"
+    },
+    {
+      "id": "baisse_libido",
+      "name": "Baisse de libido",
+      "category": "urologique"
+    },
+    {
+      "id": "nez_bouche",
+      "name": "Nez bouché",
+      "category": "respiratoire"
+    },
+    {
+      "id": "douleur_visage",
+      "name": "Douleur au visage",
+      "category": "respiratoire"
+    },
+    {
+      "id": "ecoulement_nasal",
+      "name": "Écoulement nasal",
+      "category": "respiratoire"
+    },
+    {
+      "id": "maux_tete_frontaux",
+      "name": "Maux de tête frontaux",
+      "category": "respiratoire"
+    },
+    {
+      "id": "gonflement_cou",
+      "name": "Gonflement au cou",
+      "category": "endocrinologique"
+    },
+    {
+      "id": "difficulte_avaler",
+      "name": "Difficulté à avaler",
+      "category": "endocrinologique"
+    },
+    {
+      "id": "sensation_etouffement",
+      "name": "Sensation d'étouffement",
+      "category": "endocrinologique"
+    },
+    {
+      "id": "changements_voix",
+      "name": "Changements de voix",
+      "category": "endocrinologique"
+    },
+    {
+      "id": "douleur_articulaire_intense",
+      "name": "Douleur articulaire intense",
+      "category": "rhumatologique"
+    },
+    {
+      "id": "rougeur_chaleur_articulation",
+      "name": "Rougeur et chaleur de l'articulation",
+      "category": "rhumatologique"
+    },
+    {
+      "id": "gonflement",
+      "name": "Gonflement",
+      "category": "rhumatologique"
+    },
+    {
+      "id": "forte_fievre",
+      "name": "Forte fièvre",
+      "category": "infectieux"
+    },
+    {
+      "id": "frissons",
+      "name": "Frissons",
+      "category": "infectieux"
+    },
+    {
+      "id": "sueurs_abondantes",
+      "name": "Sueurs abondantes",
+      "category": "infectieux"
+    },
+    {
+      "id": "fatigue_extreme",
+      "name": "Fatigue extrême",
+      "category": "infectieux"
+    },
+    {
+      "id": "douleur_musculaire",
+      "name": "Douleur musculaire",
+      "category": "infectieux"
+    },
+    {
+      "id": "confusion",
+      "name": "Confusion",
+      "category": "neurologique"
+    },
+    {
+      "id": "manque_energie",
+      "name": "Manque d'énergie",
+      "category": "general"
+    },
+    {
+      "id": "difficulte_concentration",
+      "name": "Difficulté de concentration",
+      "category": "general"
+    },
+    {
+      "id": "infections_frequentes",
+      "name": "Infections fréquentes",
+      "category": "immunologique"
+    },
+    {
+      "id": "cicatrisation_lente",
+      "name": "Cicatrisation lente",
+      "category": "immunologique"
+    },
+    {
+      "id": "gonflement_bas_ventre",
+      "name": "Gonflement du bas-ventre",
+      "category": "gynecologique"
+    },
+    {
+      "id": "grosseur_aine_testicules",
+      "name": "Grosseur au niveau de l'aine ou des testicules",
+      "category": "chirurgical"
+    },
+    {
+      "id": "douleur_gene_position_debout",
+      "name": "Douleur ou gêne en position debout",
+      "category": "chirurgical"
+    },
+    {
+      "id": "douleurs_musculaires",
+      "name": "Douleurs musculaires",
+      "category": "infectieux"
+    },
+    {
+      "id": "symptomes_specifiques_virus",
+      "name": "Symptômes spécifiques selon le virus",
+      "category": "infectieux"
+    },
+    {
+      "id": "douleur_talon",
+      "name": "Douleur au talon",
+      "category": "orthopedique"
+    },
+    {
+      "id": "sensation_piqure_pied",
+      "name": "Sensation de piqûre sous le pied",
+      "category": "orthopedique"
+    }
+  ]
+}

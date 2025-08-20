@@ -1,0 +1,409 @@
+{
+  "pathologies": [
+    {
+      "id": "P001",
+      "name": "Hypertension artérielle",
+      "symptoms": ["maux_tete_frequents", "vertiges", "fatigue", "vision_floue", "palpitations", "saignements_nez"],
+      "category": "cardiovasculaire",
+      "severity": "elevee",
+      "product_kit_id": "kit_001",
+      "advice": {
+        "alimentation": "Réduire le sel, éviter les aliments transformés, privilégier les fruits et légumes",
+        "hygiene": "Surveiller régulièrement la tension artérielle, éviter le stress",
+        "repos": "Dormir suffisamment, pratiquer la relaxation",
+        "hydratation": "Boire de l'eau régulièrement, éviter l'alcool",
+        "activite_physique": "Exercice modéré régulier, marche quotidienne"
+      }
+    },
+    {
+      "id": "P002",
+      "name": "Diabète",
+      "symptoms": ["soif_excessive", "urines_frequentes", "fatigue", "amaigrissement_inexpliquee", "vision_floue", "plaies_cicatrisation_lente"],
+      "category": "metabolique",
+      "severity": "elevee",
+      "product_kit_id": "kit_002",
+      "advice": {
+        "alimentation": "Contrôler les glucides, manger équilibré, éviter les sucres rapides",
+        "hygiene": "Surveiller la glycémie, soigner les pieds",
+        "repos": "Dormir régulièrement, gérer le stress",
+        "hydratation": "Boire de l'eau, éviter les boissons sucrées",
+        "activite_physique": "Exercice régulier, marche quotidienne"
+      }
+    },
+    {
+      "id": "P003",
+      "name": "Anémie",
+      "symptoms": ["fatigue", "palem", "essoufflement", "vertiges", "palpitations", "ongles_cassants"],
+      "category": "hematologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_003",
+      "advice": {
+        "alimentation": "Aliments riches en fer (viande rouge, légumineuses, épinards)",
+        "hygiene": "Surveiller les signes de fatigue, éviter les efforts intenses",
+        "repos": "Dormir suffisamment, repos régulier",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Exercice modéré, éviter la fatigue excessive"
+      }
+    },
+    {
+      "id": "P004",
+      "name": "Prostate (HBP)",
+      "symptoms": ["difficulte_uriner", "besoin_frequent_uriner", "jet_urine_faible", "douleur_miction"],
+      "category": "urologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_004",
+      "advice": {
+        "alimentation": "Éviter les épices, réduire la caféine, boire suffisamment",
+        "hygiene": "Vider complètement la vessie, éviter la rétention",
+        "repos": "Dormir suffisamment, éviter la fatigue",
+        "hydratation": "Boire de l'eau régulièrement, éviter l'alcool",
+        "activite_physique": "Exercice modéré, éviter la position assise prolongée"
+      }
+    },
+    {
+      "id": "P005",
+      "name": "Asthme",
+      "symptoms": ["essoufflement", "sifflements_respiratoires", "toux_persistante", "oppression_thoracique"],
+      "category": "respiratoire",
+      "severity": "elevee",
+      "product_kit_id": "kit_005",
+      "advice": {
+        "alimentation": "Éviter les allergènes alimentaires, manger équilibré",
+        "hygiene": "Éviter la poussière, aérer régulièrement, éviter le tabac",
+        "repos": "Dormir avec la tête surélevée, éviter la fatigue",
+        "hydratation": "Boire beaucoup d'eau, humidifier l'air",
+        "activite_physique": "Exercice modéré, éviter les efforts intenses"
+      }
+    },
+    {
+      "id": "P006",
+      "name": "Tumeur / Cancer",
+      "symptoms": ["fatigue_persistante", "perte_poids_inexpliquee", "douleurs_localisees", "boule_masse_anormale", "saignements_inhabituels"],
+      "category": "oncologique",
+      "severity": "elevee",
+      "product_kit_id": "kit_006",
+      "advice": {
+        "alimentation": "Alimentation équilibrée et nutritive, éviter les aliments transformés",
+        "hygiene": "Surveillance médicale régulière, soins d'hygiène rigoureux",
+        "repos": "Repos suffisant, gestion du stress et de la fatigue",
+        "hydratation": "Boire beaucoup d'eau, éviter l'alcool",
+        "activite_physique": "Exercice modéré selon les capacités, marche quotidienne"
+      }
+    },
+    {
+      "id": "P007",
+      "name": "Perte de poids (rapide et involontaire)",
+      "symptoms": ["amaigrissement_visible", "fatigue", "faiblesse_musculaire", "perte_appetit"],
+      "category": "general",
+      "severity": "moyenne",
+      "product_kit_id": "kit_007",
+      "advice": {
+        "alimentation": "Alimentation hypercalorique et nutritive, repas fréquents",
+        "hygiene": "Surveiller l'évolution du poids, consulter un médecin",
+        "repos": "Dormir suffisamment, éviter la fatigue excessive",
+        "hydratation": "Boire de l'eau, jus de fruits, soupes",
+        "activite_physique": "Exercice modéré, éviter les efforts intenses"
+      }
+    },
+    {
+      "id": "P008",
+      "name": "Épilepsie",
+      "symptoms": ["crises_convulsives", "perte_conscience_temporaire", "tremblements_involontaires", "regard_fixe_absence"],
+      "category": "neurologique",
+      "severity": "elevee",
+      "product_kit_id": "kit_008",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, éviter l'alcool et la caféine",
+        "hygiene": "Surveillance médicale stricte, éviter les situations dangereuses",
+        "repos": "Dormir régulièrement, éviter la fatigue et le stress",
+        "hydratation": "Boire de l'eau régulièrement",
+        "activite_physique": "Exercice modéré sous surveillance, éviter les sports dangereux"
+      }
+    },
+    {
+      "id": "P009",
+      "name": "Hépatite",
+      "symptoms": ["fatigue", "jaunisse", "urines_foncees", "douleur_abdomen_droit", "nausees", "vomissements"],
+      "category": "hepatique",
+      "severity": "elevee",
+      "product_kit_id": "kit_009",
+      "advice": {
+        "alimentation": "Alimentation légère, éviter les graisses, privilégier les protéines",
+        "hygiene": "Repos strict, éviter l'alcool et les médicaments hépatotoxiques",
+        "repos": "Repos complet au lit, éviter la fatigue",
+        "hydratation": "Boire beaucoup d'eau, éviter l'alcool",
+        "activite_physique": "Repos complet, pas d'exercice pendant la phase aiguë"
+      }
+    },
+    {
+      "id": "P010",
+      "name": "Ulcère",
+      "symptoms": ["douleur_estomac", "brulure_gastrique", "nausees", "perte_appetit", "ballonnements"],
+      "category": "digestif",
+      "severity": "moyenne",
+      "product_kit_id": "kit_010",
+      "advice": {
+        "alimentation": "Alimentation légère, éviter les épices, manger lentement",
+        "hygiene": "Éviter le stress, manger à heures régulières",
+        "repos": "Dormir suffisamment, éviter la fatigue",
+        "hydratation": "Boire de l'eau, éviter l'alcool et la caféine",
+        "activite_physique": "Exercice modéré, éviter les efforts après les repas"
+      }
+    },
+    {
+      "id": "P011",
+      "name": "Infertilité féminine",
+      "symptoms": ["difficulte_concevoir", "cycles_menstruels_irreguliers", "douleurs_pelviennes", "regles_abondantes_faibles"],
+      "category": "gynecologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_011",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, vitamines et minéraux, éviter l'alcool",
+        "hygiene": "Surveillance gynécologique régulière, hygiène intime",
+        "repos": "Dormir suffisamment, gérer le stress",
+        "hydratation": "Boire de l'eau, éviter l'alcool et la caféine",
+        "activite_physique": "Exercice modéré, yoga, relaxation"
+      }
+    },
+    {
+      "id": "P012",
+      "name": "Problèmes de vision (yeux)",
+      "symptoms": ["vision_floue", "picotements", "sensibilite_lumiere", "rougeur_demangeaisons_oculaires"],
+      "category": "ophtalmologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_012",
+      "advice": {
+        "alimentation": "Aliments riches en vitamines A, C, E, oméga-3",
+        "hygiene": "Protéger les yeux du soleil, éviter la fatigue oculaire",
+        "repos": "Repos des yeux régulier, dormir suffisamment",
+        "hydratation": "Boire de l'eau, larmes artificielles si nécessaire",
+        "activite_physique": "Exercice modéré, éviter les sports violents"
+      }
+    },
+    {
+      "id": "P013",
+      "name": "Troubles de l'orgasme féminin",
+      "symptoms": ["difficulte_atteindre_orgasme", "douleur_rapports", "baisse_desir_sexuel"],
+      "category": "gynecologique",
+      "severity": "faible",
+      "product_kit_id": "kit_013",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, éviter l'alcool excessif",
+        "hygiene": "Consultation gynécologique, hygiène intime",
+        "repos": "Dormir suffisamment, gérer le stress",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Exercice modéré, relaxation, yoga"
+      }
+    },
+    {
+      "id": "P014",
+      "name": "Arthrose",
+      "symptoms": ["douleur_articulaire", "raideur", "gonflement_articulations", "diminution_mobilite"],
+      "category": "rhumatologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_014",
+      "advice": {
+        "alimentation": "Aliments anti-inflammatoires, oméga-3, éviter les aliments transformés",
+        "hygiene": "Protéger les articulations, éviter les mouvements brusques",
+        "repos": "Repos des articulations douloureuses, dormir suffisamment",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Exercice doux, natation, marche, étirements"
+      }
+    },
+    {
+      "id": "P015",
+      "name": "Problème cardiaque",
+      "symptoms": ["douleur_poitrine", "essoufflement", "fatigue", "palpitations", "gonflement_pieds_chevilles"],
+      "category": "cardiovasculaire",
+      "severity": "elevee",
+      "product_kit_id": "kit_015",
+      "advice": {
+        "alimentation": "Alimentation pauvre en graisses, éviter le sel, privilégier les fruits et légumes",
+        "hygiene": "Surveillance médicale stricte, éviter le stress",
+        "repos": "Repos suffisant, dormir régulièrement",
+        "hydratation": "Boire de l'eau modérément, éviter l'alcool",
+        "activite_physique": "Exercice modéré sous surveillance médicale"
+      }
+    },
+    {
+      "id": "P016",
+      "name": "Problèmes sexuels masculins",
+      "symptoms": ["dysfunction_erectile", "ejaculation_precoce", "baisse_libido"],
+      "category": "urologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_016",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, éviter l'alcool excessif, zinc et vitamines",
+        "hygiene": "Consultation urologique, hygiène personnelle",
+        "repos": "Dormir suffisamment, gérer le stress",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Exercice modéré, relaxation, yoga"
+      }
+    },
+    {
+      "id": "P017",
+      "name": "Sinusite",
+      "symptoms": ["nez_bouche", "douleur_visage", "ecoulement_nasal", "maux_tete_frontaux"],
+      "category": "respiratoire",
+      "severity": "moyenne",
+      "product_kit_id": "kit_017",
+      "advice": {
+        "alimentation": "Alimentation légère, éviter les produits laitiers, boire beaucoup",
+        "hygiene": "Nettoyer le nez régulièrement, humidifier l'air",
+        "repos": "Dormir avec la tête surélevée, repos suffisant",
+        "hydratation": "Boire beaucoup d'eau, tisanes, soupes",
+        "activite_physique": "Exercice modéré, éviter les efforts intenses"
+      }
+    },
+    {
+      "id": "P018",
+      "name": "Diminution des globules rouges (Hématies)",
+      "symptoms": ["fatigue", "essoufflement", "palem", "palpitations"],
+      "category": "hematologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_018",
+      "advice": {
+        "alimentation": "Aliments riches en fer, vitamine B12, acide folique",
+        "hygiene": "Surveiller les signes de fatigue, éviter les efforts intenses",
+        "repos": "Dormir suffisamment, repos régulier",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Exercice modéré, éviter la fatigue excessive"
+      }
+    },
+    {
+      "id": "P019",
+      "name": "Goitre",
+      "symptoms": ["gonflement_cou", "difficulte_avaler", "sensation_etouffement", "changements_voix"],
+      "category": "endocrinologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_019",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, iode modéré, éviter les aliments goitrogènes",
+        "hygiene": "Surveillance médicale régulière, éviter la pression sur le cou",
+        "repos": "Dormir suffisamment, éviter la fatigue",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Exercice modéré, éviter les sports de contact"
+      }
+    },
+    {
+      "id": "P020",
+      "name": "Goutte",
+      "symptoms": ["douleur_articulaire_intense", "rougeur_chaleur_articulation", "gonflement"],
+      "category": "rhumatologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_020",
+      "advice": {
+        "alimentation": "Éviter les aliments riches en purines, réduire l'alcool, boire beaucoup",
+        "hygiene": "Surveiller l'articulation, éviter les traumatismes",
+        "repos": "Repos de l'articulation douloureuse, dormir suffisamment",
+        "hydratation": "Boire beaucoup d'eau, éviter l'alcool",
+        "activite_physique": "Repos pendant les crises, exercice modéré entre les crises"
+      }
+    },
+    {
+      "id": "P021",
+      "name": "Paludisme sévère",
+      "symptoms": ["forte_fievre", "frissons", "sueurs_abondantes", "fatigue_extreme", "douleur_musculaire", "confusion"],
+      "category": "infectieux",
+      "severity": "elevee",
+      "product_kit_id": "kit_021",
+      "advice": {
+        "alimentation": "Alimentation légère et nutritive, boire beaucoup",
+        "hygiene": "Traitement médical urgent, repos strict",
+        "repos": "Repos complet au lit, surveillance médicale",
+        "hydratation": "Boire beaucoup d'eau, solutions de réhydratation",
+        "activite_physique": "Repos complet, pas d'exercice pendant la phase aiguë"
+      }
+    },
+    {
+      "id": "P022",
+      "name": "Fatigue chronique",
+      "symptoms": ["fatigue_persistante", "manque_energie", "difficulte_concentration"],
+      "category": "general",
+      "severity": "moyenne",
+      "product_kit_id": "kit_022",
+      "advice": {
+        "alimentation": "Alimentation équilibrée et nutritive, vitamines et minéraux",
+        "hygiene": "Gestion du stress, rythme de vie régulier",
+        "repos": "Repos suffisant, siestes courtes, dormir régulièrement",
+        "hydratation": "Boire de l'eau régulièrement, éviter l'alcool",
+        "activite_physique": "Exercice très modéré, marche douce, yoga"
+      }
+    },
+    {
+      "id": "P023",
+      "name": "Baisse du système immunitaire",
+      "symptoms": ["infections_frequentes", "cicatrisation_lente", "fatigue"],
+      "category": "immunologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_023",
+      "advice": {
+        "alimentation": "Alimentation riche en vitamines C, D, zinc, probiotiques",
+        "hygiene": "Hygiène rigoureuse, éviter les contacts avec les malades",
+        "repos": "Dormir suffisamment, gérer le stress",
+        "hydratation": "Boire de l'eau, jus de fruits, tisanes",
+        "activite_physique": "Exercice modéré, éviter la fatigue excessive"
+      }
+    },
+    {
+      "id": "P024",
+      "name": "Fibrome / Kyste / Myome",
+      "symptoms": ["douleurs_pelviennes", "regles_abondantes_faibles", "gonflement_bas_ventre", "douleur_rapports"],
+      "category": "gynecologique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_024",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, éviter les aliments transformés",
+        "hygiene": "Surveillance gynécologique régulière, hygiène intime",
+        "repos": "Dormir suffisamment, gérer le stress",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Exercice modéré, yoga, relaxation"
+      }
+    },
+    {
+      "id": "P025",
+      "name": "Hernie / Hydrocèle",
+      "symptoms": ["grosseur_aine_testicules", "douleur_gene_position_debout"],
+      "category": "chirurgical",
+      "severity": "moyenne",
+      "product_kit_id": "kit_025",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, éviter la constipation",
+        "hygiene": "Surveillance médicale, éviter les efforts",
+        "repos": "Repos suffisant, éviter la fatigue",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Éviter les sports de contact, exercice modéré"
+      }
+    },
+    {
+      "id": "P026",
+      "name": "Maladies virales (SIDA, choléra, COVID, etc.)",
+      "symptoms": ["forte_fievre", "douleurs_musculaires", "fatigue", "symptomes_specifiques_virus"],
+      "category": "infectieux",
+      "severity": "elevee",
+      "product_kit_id": "kit_026",
+      "advice": {
+        "alimentation": "Alimentation légère et nutritive, boire beaucoup",
+        "hygiene": "Traitement médical approprié, isolement si nécessaire",
+        "repos": "Repos complet, surveillance médicale",
+        "hydratation": "Boire beaucoup d'eau, solutions de réhydratation",
+        "activite_physique": "Repos complet pendant la phase aiguë"
+      }
+    },
+    {
+      "id": "P027",
+      "name": "Épine calcanéenne",
+      "symptoms": ["douleur_talon", "sensation_piqure_pied"],
+      "category": "orthopedique",
+      "severity": "moyenne",
+      "product_kit_id": "kit_027",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, calcium et vitamine D",
+        "hygiene": "Chaussures adaptées, semelles orthopédiques",
+        "repos": "Repos du pied, éviter la station debout prolongée",
+        "hydratation": "Boire de l'eau, éviter l'alcool",
+        "activite_physique": "Éviter la course, marche modérée, étirements"
+      }
+    }
+  ]
+}

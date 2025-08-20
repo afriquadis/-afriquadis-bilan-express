@@ -1,0 +1,586 @@
+{
+  "product_kits": [
+    {
+      "id": "kit_001",
+      "name": "Kit Hypertension Artérielle",
+      "description": "Kit complet pour la gestion de l'hypertension artérielle",
+      "products": [
+        "Cardiomaide",
+        "REA",
+        "Paludoxyne",
+        "Thé Kadeaut",
+        "Diabethyzole",
+        "Calciumynoze"
+      ],
+      "totalPrice": 85500,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Cardiomaide": 18000,
+        "REA": 18000,
+        "Paludoxyne": 6750,
+        "Thé Kadeaut": 6750,
+        "Diabethyzole": 18000,
+        "Calciumynoze": 12000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_002",
+      "name": "Kit Diabète",
+      "description": "Kit de gestion du diabète et de la glycémie",
+      "products": [
+        "Diabéthyzole",
+        "HBP",
+        "REA",
+        "Thé Kadeaut",
+        "Cardiomaide",
+        "Paludoxyne"
+      ],
+      "totalPrice": 85500,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Diabéthyzole": 18000,
+        "HBP": 18000,
+        "REA": 18000,
+        "Thé Kadeaut": 6750,
+        "Cardiomaide": 18000,
+        "Paludoxyne": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_003",
+      "name": "Kit Anémie",
+      "description": "Kit pour le traitement de l'anémie et la carence en fer",
+      "products": [
+        "Hématodyne",
+        "TGZ",
+        "Thé Fertilia",
+        "Polyvitaminole"
+      ],
+      "totalPrice": 40500,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Hématodyne": 6750,
+        "TGZ": 18000,
+        "Thé Fertilia": 6750,
+        "Polyvitaminole": 9000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_004",
+      "name": "Kit Prostate (HBP)",
+      "description": "Kit pour les problèmes de prostate et d'hypertrophie bénigne",
+      "products": [
+        "Thé Cancéryzole",
+        "REA",
+        "DT6",
+        "HBP",
+        "Cardiomaide",
+        "Restfort"
+      ],
+      "totalPrice": 78750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Thé Cancéryzole": 18000,
+        "REA": 18000,
+        "DT6": 11250,
+        "HBP": 18000,
+        "Cardiomaide": 18000,
+        "Restfort": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_005",
+      "name": "Kit Asthme",
+      "description": "Kit pour la gestion de l'asthme et des problèmes respiratoires",
+      "products": [
+        "Cardiomaide",
+        "TGZ",
+        "Thé Kadeaut",
+        "Mère des pommades"
+      ],
+      "totalPrice": 44250,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Cardiomaide": 18000,
+        "TGZ": 18000,
+        "Thé Kadeaut": 6750,
+        "Mère des pommades": 1500
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_006",
+      "name": "Kit Tumeur / Cancer",
+      "description": "Kit de soutien pour les patients atteints de cancer",
+      "products": [
+        "Thé cancéryzole",
+        "HBP",
+        "TGZ",
+        "REA",
+        "Hématodyne",
+        "Thé Juvéniqua",
+        "Paludoxyne",
+        "Déparazytomil",
+        "Polyvitaminole"
+      ],
+      "totalPrice": 123750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Thé cancéryzole": 18000,
+        "HBP": 18000,
+        "TGZ": 18000,
+        "REA": 18000,
+        "Hématodyne": 6750,
+        "Thé Juvéniqua": 6750,
+        "Paludoxyne": 6750,
+        "Déparazytomil": 6750,
+        "Polyvitaminole": 9000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_007",
+      "name": "Kit Perte de Poids",
+      "description": "Kit pour la perte de poids et la gestion du métabolisme",
+      "products": [
+        "Curifera",
+        "Diabétyzole",
+        "Thé juvéniqua",
+        "Déparazytomil",
+        "Polyvitaminole"
+      ],
+      "totalPrice": 60750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Curifera": 6750,
+        "Diabétyzole": 18000,
+        "Thé juvéniqua": 6750,
+        "Déparazytomil": 6750,
+        "Polyvitaminole": 9000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_008",
+      "name": "Kit Épilepsie",
+      "description": "Kit de soutien pour la gestion de l'épilepsie",
+      "products": [
+        "Cardiomaide",
+        "REA",
+        "TGZ",
+        "Thé Quyérat"
+      ],
+      "totalPrice": 60750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Cardiomaide": 18000,
+        "REA": 18000,
+        "TGZ": 18000,
+        "Thé Quyérat": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_009",
+      "name": "Kit Hépatite",
+      "description": "Kit pour le soutien hépatique et la détoxification",
+      "products": [
+        "Néphromédus",
+        "REA",
+        "TGZ",
+        "Curifera",
+        "Thé Juvényqua",
+        "Déparazytomil",
+        "HBP",
+        "Polyverode – Air Plus"
+      ],
+      "totalPrice": 96750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Néphromédus": 18000,
+        "REA": 18000,
+        "TGZ": 18000,
+        "Curifera": 6750,
+        "Thé Juvényqua": 6750,
+        "Déparazytomil": 6750,
+        "HBP": 18000,
+        "Polyverode – Air Plus": 12000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_010",
+      "name": "Kit Ulcère",
+      "description": "Kit pour le traitement des ulcères gastriques",
+      "products": [
+        "HBP",
+        "TGZ",
+        "Déparazytomil",
+        "Thé Restfort"
+      ],
+      "totalPrice": 42750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "HBP": 18000,
+        "TGZ": 18000,
+        "Déparazytomil": 6750,
+        "Thé Restfort": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_011",
+      "name": "Kit Fécondité Féminine",
+      "description": "Kit pour améliorer la fertilité féminine",
+      "products": [
+        "Thé Fertilia",
+        "Cardiomaide",
+        "Déparazytomil",
+        "TGZ",
+        "HBP"
+      ],
+      "totalPrice": 69750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Thé Fertilia": 6750,
+        "Cardiomaide": 18000,
+        "Déparazytomil": 6750,
+        "TGZ": 18000,
+        "HBP": 18000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_012",
+      "name": "Kit Problèmes des Yeux",
+      "description": "Kit pour la santé oculaire et la vision",
+      "products": [
+        "Paludoxyne",
+        "Cardiomaide",
+        "Polyvitaminole",
+        "HBP"
+      ],
+      "totalPrice": 51750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Paludoxyne": 6750,
+        "Cardiomaide": 18000,
+        "Polyvitaminole": 9000,
+        "HBP": 18000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_013",
+      "name": "Kit Orgasme Féminin",
+      "description": "Kit pour améliorer la satisfaction sexuelle féminine",
+      "products": [
+        "TOB",
+        "HBP",
+        "Thé Fertilia"
+      ],
+      "totalPrice": 33750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "TOB": 9000,
+        "HBP": 18000,
+        "Thé Fertilia": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_014",
+      "name": "Kit Arthrose",
+      "description": "Kit pour la gestion de l'arthrose et des douleurs articulaires",
+      "products": [
+        "HBP",
+        "Thé Kadeaut",
+        "REA",
+        "Cardiomaide",
+        "Calciuminoze",
+        "Mère des Pommades"
+      ],
+      "totalPrice": 83250,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "HBP": 18000,
+        "Thé Kadeaut": 6750,
+        "REA": 18000,
+        "Cardiomaide": 18000,
+        "Calciuminoze": 12000,
+        "Mère des Pommades": 1500
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_015",
+      "name": "Kit Problème Cardiaque",
+      "description": "Kit pour la santé cardiovasculaire",
+      "products": [
+        "REA",
+        "Cardiomaide",
+        "Thé Kadeaut"
+      ],
+      "totalPrice": 42750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "REA": 18000,
+        "Cardiomaide": 18000,
+        "Thé Kadeaut": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_016",
+      "name": "Kit Problème Sexuel Masculin",
+      "description": "Kit pour améliorer la performance sexuelle masculine",
+      "products": [
+        "HBP",
+        "DT6",
+        "Calciuminoze",
+        "Fertilia"
+      ],
+      "totalPrice": 59250,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "HBP": 18000,
+        "DT6": 11250,
+        "Calciuminoze": 12000,
+        "Fertilia": 18000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_017",
+      "name": "Kit Sinusite",
+      "description": "Kit pour le traitement de la sinusite",
+      "products": [
+        "TGZ",
+        "HBP",
+        "Thé Restfort"
+      ],
+      "totalPrice": 42750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "TGZ": 18000,
+        "HBP": 18000,
+        "Thé Restfort": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_018",
+      "name": "Kit Hématies",
+      "description": "Kit pour améliorer la production de globules rouges",
+      "products": [
+        "Hématodyne",
+        "REA",
+        "Calciumynoze",
+        "Thé Kadeaut"
+      ],
+      "totalPrice": 56700,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Hématodyne": 6750,
+        "REA": 18000,
+        "Calciumynoze": 12000,
+        "Thé Kadeaut": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_019",
+      "name": "Kit Goitre",
+      "description": "Kit pour le traitement du goitre",
+      "products": [
+        "Déparazythomil",
+        "Polyvitaminole",
+        "TGZ",
+        "Thé Juvéniqua",
+        "HBP"
+      ],
+      "totalPrice": 60750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Déparazythomil": 6750,
+        "Polyvitaminole": 9000,
+        "TGZ": 18000,
+        "Thé Juvéniqua": 6750,
+        "HBP": 18000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_020",
+      "name": "Kit Goutte",
+      "description": "Kit pour la gestion de la goutte",
+      "products": [
+        "Néphromédus",
+        "HBP",
+        "Thé Juvéniqua",
+        "Mère des Pommades"
+      ],
+      "totalPrice": 44250,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Néphromédus": 18000,
+        "HBP": 18000,
+        "Thé Juvéniqua": 6750,
+        "Mère des Pommades": 1500
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_021",
+      "name": "Kit Paludisme Sévère",
+      "description": "Kit pour le traitement du paludisme sévère",
+      "products": [
+        "Paludoxyne",
+        "Hématodyne",
+        "REA"
+      ],
+      "totalPrice": 42750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Paludoxyne": 6750,
+        "Hématodyne": 6750,
+        "REA": 18000
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_022",
+      "name": "Kit Fatigue Chronique",
+      "description": "Kit pour lutter contre la fatigue chronique",
+      "products": [
+        "Paludoxyne",
+        "REA",
+        "Thé Quyérat"
+      ],
+      "totalPrice": 42750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Paludoxyne": 6750,
+        "REA": 18000,
+        "Thé Quyérat": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_023",
+      "name": "Kit Système Immunitaire",
+      "description": "Kit pour renforcer le système immunitaire",
+      "products": [
+        "TGZ",
+        "REA",
+        "Thé Restfort"
+      ],
+      "totalPrice": 42750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "TGZ": 18000,
+        "REA": 18000,
+        "Thé Restfort": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_024",
+      "name": "Kit Fibrome / Kyste / Myome",
+      "description": "Kit pour le traitement des fibromes et kystes",
+      "products": [
+        "HBP",
+        "TGZ",
+        "Hématodyne",
+        "Cardiomaide",
+        "Thé Restfort"
+      ],
+      "totalPrice": 69750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "HBP": 18000,
+        "TGZ": 18000,
+        "Hématodyne": 6750,
+        "Cardiomaide": 18000,
+        "Thé Restfort": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_025",
+      "name": "Kit Hernie / Hydrocèle",
+      "description": "Kit pour le traitement des hernies et hydrocèles",
+      "products": [
+        "HBP",
+        "TGZ",
+        "DT6",
+        "Cardiomaide",
+        "Calciumynoze",
+        "Thé Fertilia"
+      ],
+      "totalPrice": 84000,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "HBP": 18000,
+        "TGZ": 18000,
+        "DT6": 11250,
+        "Cardiomaide": 18000,
+        "Calciumynoze": 12000,
+        "Thé Fertilia": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_026",
+      "name": "Kit Maladies Virales",
+      "description": "Kit pour le traitement des maladies virales (SIDA, Choléra, COVID)",
+      "products": [
+        "Canceryzol",
+        "Polyverode Air Plus",
+        "Déparazytomil",
+        "Polyvitaminole",
+        "REA",
+        "HBP",
+        "Hématodyne"
+      ],
+      "totalPrice": 96750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Canceryzol": 18000,
+        "Polyverode Air Plus": 12000,
+        "Déparazytomil": 6750,
+        "Polyvitaminole": 9000,
+        "REA": 18000,
+        "HBP": 18000,
+        "Hématodyne": 6750
+      },
+      "isActive": true
+    },
+    {
+      "id": "kit_027",
+      "name": "Kit Épine Calcanéenne",
+      "description": "Kit pour le traitement de l'épine calcanéenne",
+      "products": [
+        "Polyverode Air Plus",
+        "Polyvitaminole",
+        "Déparazytomil",
+        "REA",
+        "Mère des Pommades"
+      ],
+      "totalPrice": 54750,
+      "currency": "XOF",
+      "priceBreakdown": {
+        "Polyverode Air Plus": 12000,
+        "Polyvitaminole": 9000,
+        "Déparazytomil": 6750,
+        "REA": 18000,
+        "Mère des Pommades": 1500
+      },
+      "isActive": true
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+// Schema de Production AFRIQUADIS - PostgreSQL
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  name        String?
+  phone       String?
+  passwordHash String?
+  createdAt   DateTime @default(now())
+  lastLogin   DateTime @default(now())
+  isActive    Boolean  @default(true)
+  role        UserRole @default(PATIENT)
+  
+  // Préférences
+  prefLang    String   @default("fr")
+  prefEmail   Boolean  @default(false)
+  prefNotif   Boolean  @default(true)
+  prefTheme   String   @default("light")
+  
+  // Relations
+  orders      Order[]
+  messages    Message[]
+  bilans      Bilan[]
+  diagnostics DiagnosticDraft[]
+  
+  // Index pour performance
+  @@index([email])
+  @@index([isActive])
+  @@index([role])
+}
+
+enum UserRole {
+  PATIENT
+  ADMIN
+  DOCTOR
+  COUNSELOR
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  orderId   String
+  productId String
+  name      String
+  quantity  Int
+  price     Decimal @db.Decimal(10, 2)
+  currency  String  @default("XOF")
+  
+  @@index([orderId])
+  @@index([productId])
+}
+
+model Order {
+  id           String      @id @default(cuid())
+  user         User        @relation(fields: [userId], references: [id])
+  userId       String
+  items        OrderItem[]
+  total        Decimal     @db.Decimal(10, 2)
+  status       OrderStatus @default(PENDING)
+  trackingCode String?
+  paymentId    String?
+  shippingAddress Json?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  
+  @@index([userId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+enum OrderStatus {
+  PENDING
+  PAID
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+  REFUNDED
+}
+
+model Message {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  from      String   // 'patient' | 'counselor' | 'system'
+  content   String
+  type      MessageType @default(TEXT)
+  isRead    Boolean  @default(false)
+  timestamp DateTime @default(now())
+  
+  @@index([userId])
+  @@index([timestamp])
+  @@index([isRead])
+}
+
+enum MessageType {
+  TEXT
+  IMAGE
+  DOCUMENT
+  SYSTEM
+}
+
+model Bilan {
+  id                   String   @id @default(cuid())
+  user                 User     @relation(fields: [userId], references: [id])
+  userId               String
+  diagnosticSessionId  String
+  pathologyId          String
+  pathologyName        String
+  confidence           Int
+  urgency              String
+  score                Int
+  symptoms             Json
+  recommendations      Json
+  aiInsights           Json?
+  riskFactors          Json?
+  differentialDiagnosis Json?
+  productKitId         String?
+  followUpDate         DateTime?
+  completed            Boolean  @default(true)
+  notes                String?
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+  
+  @@index([userId])
+  @@index([pathologyId])
+  @@index([createdAt])
+  @@index([completed])
+}
+
+model DiagnosticDraft {
+  id               String   @id @default(cuid())
+  user             User     @relation(fields: [userId], references: [id])
+  userId           String   @unique
+  patientNom       String
+  patientPrenom    String
+  patientAge       String
+  patientGenre     String
+  selectedSymptoms Json
+  diagnosticDate   DateTime @default(now())
+  
+  @@index([userId])
+}
+
+model Pathology {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  symptoms    Json
+  category    String
+  severity    String
+  productKitId String?
+  advice      Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  isActive    Boolean  @default(true)
+  
+  @@index([category])
+  @@index([severity])
+  @@index([isActive])
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  price       Decimal  @db.Decimal(10, 2)
+  currency    String   @default("XOF")
+  category    String
+  isActive    Boolean  @default(true)
+  stock       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([category])
+  @@index([isActive])
+  @@index([price])
+}
+
+model ProductKit {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  products    Json
+  totalPrice  Decimal  @db.Decimal(10, 2)
+  currency    String   @default("XOF")
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([isActive])
+  @@index([totalPrice])
+}
+
+model SystemLog {
+  id        String   @id @default(cuid())
+  level     String   // 'info', 'warn', 'error'
+  message   String
+  context   Json?
+  timestamp DateTime @default(now())
+  userId    String?
+  
+  @@index([level])
+  @@index([timestamp])
+  @@index([userId])
+}
+
+model APIMetric {
+  id          String   @id @default(cuid())
+  endpoint    String
+  method      String
+  responseTime Int
+  statusCode  Int
+  userId      String?
+  timestamp   DateTime @default(now())
+  
+  @@index([endpoint])
+  @@index([timestamp])
+  @@index([statusCode])
+}

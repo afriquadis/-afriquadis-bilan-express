@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: afriquadis-bilan-express
+    env: node
+    plan: free
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXTAUTH_SECRET
+        generateValue: true
+      - key: NEXTAUTH_URL
+        value: https://afriquadis-bilan-express.onrender.com
+    healthCheckPath: /api/health
+    autoDeploy: true

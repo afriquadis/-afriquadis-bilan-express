@@ -1,0 +1,88 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  name        String?
+  phone       String?
+  passwordHash String?
+  createdAt   DateTime @default(now())
+  lastLogin   DateTime @default(now())
+  // preferences simplifiées
+  prefLang    String   @default("fr")
+  prefEmail   Boolean  @default(false)
+  prefNotif   Boolean  @default(true)
+
+  orders      Order[]
+  messages    Message[]
+  bilans      Bilan[]
+  diagnostics DiagnosticDraft[]
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  order     Order   @relation(fields: [orderId], references: [id])
+  orderId   String
+  productId String
+  name      String
+  quantity  Int
+  price     String?
+}
+
+model Order {
+  id           String      @id @default(cuid())
+  user         User        @relation(fields: [userId], references: [id])
+  userId       String
+  items        OrderItem[]
+  total        Int?
+  status       String      @default("pending")
+  trackingCode String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+}
+
+model Message {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  from      String   // 'patient' | 'conseiller'
+  content   String
+  timestamp DateTime @default(now())
+}
+
+model Bilan {
+  id                   String   @id @default(cuid())
+  user                 User     @relation(fields: [userId], references: [id])
+  userId               String
+  diagnosticSessionId  String
+  pathologyId          String
+  productKitId         String?
+  followUpDate         DateTime?
+  completed            Boolean  @default(true)
+  notes                String?
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+}
+
+model DiagnosticDraft {
+  id               String   @id @default(cuid())
+  user             User     @relation(fields: [userId], references: [id])
+  userId           String   @unique
+  patientNom       String
+  patientPrenom    String
+  patientAge       String
+  patientGenre     String
+  selectedSymptoms Json
+  diagnosticDate   DateTime @default(now())
+}

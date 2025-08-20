@@ -1,0 +1,21 @@
+name: afriquadis-bilan-express
+services:
+  - name: web
+    source_dir: /
+    github:
+      repo: afriquadis/bilan-express
+      branch: main
+    run_command: npm start
+    build_command: npm install && npx prisma generate && npm run build
+    environment_slug: node-js
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    routes:
+      - path: /
+    envs:
+      - key: NODE_ENV
+        value: production
+      - key: NEXTAUTH_SECRET
+        value: ${NEXTAUTH_SECRET}
+      - key: NEXTAUTH_URL
+        value: ${NEXTAUTH_URL}

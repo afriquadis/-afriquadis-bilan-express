@@ -1,0 +1,77 @@
+{
+  "resume_prix": {
+    "produits_medicaments": {
+      "NEPHROMEDUS": 18000,
+      "CARDIOMAIDE": 18000,
+      "CALCIUMYNOZE": 12000,
+      "HEMATODYNE": 6750,
+      "PALUDOXYNE": 6750,
+      "HBP (BIPROGESTHYLINE)": 18000,
+      "DT6 (PHORXYGEXE)": 11250,
+      "TGZ (TRIGLOBUPHAZIDE)": 18000,
+      "DIABETHYZOLE": 18000,
+      "CURIFERA": 6750,
+      "TOB (Trilybidinole Orgazmycine Bio)": 9000,
+      "REA (Renfordizyme Arthroliazyde)": 18000,
+      "POLYVITAMINOLE": 9000,
+      "POLYVERODE - AIR PLUS": 12000,
+      "DEPARASYTHOMIL": 6750
+    },
+    "thes": {
+      "THE KADEAUT": 6750,
+      "THE JUVENYQUA": 6750,
+      "THE RESTFORT": 6750,
+      "THE QUEYRAT": 6750,
+      "THE FERTILIA": 6750,
+      "THE CANCERYZOLE": 18000
+    },
+    "miels": {
+      "MIEL DE PALAIS": 7500,
+      "MIEL DE MERE": 6750,
+      "MIEL DE MIRE": 6750
+    },
+    "pommades": {
+      "MERE DES POMMADES": 1500,
+      "BAUME DE THEIRE": 7500
+    },
+    "kits_prix_totaux": {
+      "Kit Hypertension Artérielle": 85500,
+      "Kit Diabète": 85500,
+      "Kit Anémie": 40500,
+      "Kit Prostate (HBP)": 78750,
+      "Kit Asthme": 44250,
+      "Kit Tumeur / Cancer": 123750,
+      "Kit Perte de Poids": 60750,
+      "Kit Épilepsie": 60750,
+      "Kit Hépatite": 96750,
+      "Kit Ulcère": 42750,
+      "Kit Fécondité Féminine": 69750,
+      "Kit Problèmes des Yeux": 51750,
+      "Kit Orgasme Féminin": 33750,
+      "Kit Arthrose": 83250,
+      "Kit Problème Cardiaque": 42750,
+      "Kit Problème Sexuel Masculin": 59250,
+      "Kit Sinusite": 42750,
+      "Kit Hématies": 56700,
+      "Kit Goitre": 60750,
+      "Kit Goutte": 44250,
+      "Kit Paludisme Sévère": 42750,
+      "Kit Fatigue Chronique": 42750,
+      "Kit Système Immunitaire": 42750,
+      "Kit Fibrome / Kyste / Myome": 69750,
+      "Kit Hernie / Hydrocèle": 84000,
+      "Kit Maladies Virales": 96750,
+      "Kit Épine Calcanéenne": 54750
+    },
+    "statistiques": {
+      "produit_plus_cher": "THE CANCERYZOLE (18000 FCFA)",
+      "produit_moins_cher": "MERE DES POMMADES (1500 FCFA)",
+      "kit_plus_cher": "Kit Tumeur / Cancer (123750 FCFA)",
+      "kit_moins_cher": "Kit Orgasme Féminin (33750 FCFA)",
+      "prix_moyen_produit": 10800,
+      "prix_moyen_kit": 60750,
+      "total_produits": 26,
+      "total_kits": 27
+    }
+  }
+}

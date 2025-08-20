@@ -1,0 +1,1036 @@
+{
+  "symptoms": [
+    {
+      "id": "S001",
+      "name": "Fièvre",
+      "category": "Général"
+    },
+    {
+      "id": "S002",
+      "name": "Maux de tête",
+      "category": "Général"
+    },
+    {
+      "id": "S003",
+      "name": "Fatigue intense ou persistante",
+      "category": "Général"
+    },
+    {
+      "id": "S004",
+      "name": "Nausées ou vomissements",
+      "category": "Digestif"
+    },
+    {
+      "id": "S005",
+      "name": "Douleurs abdominales",
+      "category": "Digestif"
+    },
+    {
+      "id": "S006",
+      "name": "Frissons et sueurs",
+      "category": "Général"
+    },
+    {
+      "id": "S007",
+      "name": "Perte d'appétit",
+      "category": "Digestif"
+    },
+    {
+      "id": "S008",
+      "name": "Soif excessive",
+      "category": "Général"
+    },
+    {
+      "id": "S009",
+      "name": "Besoin fréquent d'uriner",
+      "category": "Urinaire"
+    },
+    {
+      "id": "S010",
+      "name": "Pâleur de la peau",
+      "category": "Général"
+    },
+    {
+      "id": "S011",
+      "name": "Essoufflement",
+      "category": "Respiratoire"
+    },
+    {
+      "id": "S012",
+      "name": "Vertiges",
+      "category": "Général"
+    },
+    {
+      "id": "S013",
+      "name": "Mains et pieds froids",
+      "category": "Général"
+    },
+    {
+      "id": "S014",
+      "name": "Brûlures d'estomac",
+      "category": "Digestif"
+    },
+    {
+      "id": "S015",
+      "name": "Ballonnement",
+      "category": "Digestif"
+    },
+    {
+      "id": "S016",
+      "name": "Selles noires",
+      "category": "Digestif"
+    },
+    {
+      "id": "S017",
+      "name": "Sommeil non réparateur",
+      "category": "Général"
+    },
+    {
+      "id": "S018",
+      "name": "Difficultés de concentration",
+      "category": "Général"
+    },
+    {
+      "id": "S019",
+      "name": "Brûlure en urinant",
+      "category": "Urinaire"
+    },
+    {
+      "id": "S020",
+      "name": "Urines troubles",
+      "category": "Urinaire"
+    },
+    {
+      "id": "S021",
+      "name": "Constipation",
+      "category": "Digestif"
+    },
+    {
+      "id": "S022",
+      "name": "Nez qui coule/bouché",
+      "category": "Respiratoire"
+    },
+    {
+      "id": "S023",
+      "name": "Toux, mal de gorge",
+      "category": "Respiratoire"
+    },
+    {
+      "id": "S024",
+      "name": "Courbatures",
+      "category": "Général"
+    },
+    {
+      "id": "S025",
+      "name": "Nervosité",
+      "category": "Humeur"
+    },
+    {
+      "id": "S026",
+      "name": "Palpitations",
+      "category": "Humeur"
+    },
+    {
+      "id": "S027",
+      "name": "Insomnie",
+      "category": "Humeur"
+    },
+    {
+      "id": "S028",
+      "name": "Douleurs articulaires",
+      "category": "Général"
+    },
+    {
+      "id": "S029",
+      "name": "Gonflement des articulations",
+      "category": "Général"
+    },
+    {
+      "id": "S030",
+      "name": "Douleurs musculaires",
+      "category": "Général"
+    },
+    {
+      "id": "S031",
+      "name": "Sensibilité à la lumière",
+      "category": "Général"
+    },
+    {
+      "id": "S032",
+      "name": "Vision trouble",
+      "category": "Général"
+    },
+    {
+      "id": "S033",
+      "name": "Bourdonnements d'oreilles",
+      "category": "Général"
+    },
+    {
+      "id": "S034",
+      "name": "Perte de poids",
+      "category": "Général"
+    },
+    {
+      "id": "S035",
+      "name": "Gain de poids",
+      "category": "Général"
+    },
+    {
+      "id": "S036",
+      "name": "Démangeaisons",
+      "category": "Général"
+    },
+    {
+      "id": "S037",
+      "name": "Éruptions cutanées",
+      "category": "Général"
+    },
+    {
+      "id": "S038",
+      "name": "Sueurs nocturnes",
+      "category": "Général"
+    },
+    {
+      "id": "S039",
+      "name": "Bouche sèche",
+      "category": "Général"
+    },
+    {
+      "id": "S040",
+      "name": "Goût métallique",
+      "category": "Général"
+    },
+    {
+      "id": "S041",
+      "name": "Douleurs thoraciques",
+      "category": "Respiratoire"
+    },
+    {
+      "id": "S042",
+      "name": "Toux avec expectorations",
+      "category": "Respiratoire"
+    },
+    {
+      "id": "S043",
+      "name": "Douleurs lombaires",
+      "category": "Général"
+    },
+    {
+      "id": "S044",
+      "name": "Douleurs dans les jambes",
+      "category": "Général"
+    },
+    {
+      "id": "S045",
+      "name": "Crampes musculaires",
+      "category": "Général"
+    },
+    {
+      "id": "S046",
+      "name": "Tremblements",
+      "category": "Général"
+    },
+    {
+      "id": "S047",
+      "name": "Confusion",
+      "category": "Général"
+    },
+    {
+      "id": "S048",
+      "name": "Irritabilité",
+      "category": "Humeur"
+    },
+    {
+      "id": "S049",
+      "name": "Anxiété",
+      "category": "Humeur"
+    },
+    {
+      "id": "S050",
+      "name": "Dépression",
+      "category": "Humeur"
+    }
+  ],
+  "pathologies": [
+    {
+      "id": "P001",
+      "name": "Paludisme",
+      "symptoms": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S006",
+        "S024",
+        "S038"
+      ],
+      "product_kit_id": "K001",
+      "advice": {
+        "alimentation": "Repas légers et nutritifs, riches en vitamines C et B.",
+        "hygiene": "Utiliser des moustiquaires imprégnées d'insecticide et des répulsifs.",
+        "repos": "Reposez-vous au maximum, évitez les efforts physiques.",
+        "hydratation": "Buvez beaucoup d'eau, jus de fruits et tisanes.",
+        "activite_physique": "Évitez les efforts intenses jusqu'à la guérison complète."
+      },
+      "recommended_products": [
+        {
+          "product_id": "PR_HEMATODYNE",
+          "dosage": "2 gélules",
+          "frequency": "2x/jour",
+          "duration": "10 jours",
+          "notes": "Après repas"
+        },
+        {
+          "product_id": "PR_PALUDOXYNE",
+          "dosage": "1 cuillère",
+          "frequency": "3x/jour",
+          "duration": "7 jours"
+        },
+        {
+          "product_id": "PR_REA",
+          "dosage": "1 flacon",
+          "frequency": "1x/jour",
+          "duration": "15 jours"
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "name": "Diabète (suspecté)",
+      "symptoms": [
+        "S003",
+        "S007",
+        "S008",
+        "S009",
+        "S032",
+        "S034",
+        "S039"
+      ],
+      "product_kit_id": "K002",
+      "advice": {
+        "alimentation": "Adoptez une alimentation équilibrée, faible en sucres rapides, riche en fibres.",
+        "hygiene": "Surveillez attentivement l'hygiène de vos pieds, examinez-les quotidiennement.",
+        "repos": "Assurez-vous d'avoir un sommeil de qualité et régulier.",
+        "hydratation": "Buvez de l'eau régulièrement, évitez les boissons sucrées.",
+        "activite_physique": "Pratiquez une activité physique régulière et modérée."
+      },
+      "recommended_products": [
+        {
+          "product_id": "PR_TGZ",
+          "dosage": "2 gélules",
+          "frequency": "2x/jour",
+          "duration": "30 jours"
+        },
+        {
+          "product_id": "PR_THE_RESTFORT",
+          "dosage": "1 sachet",
+          "frequency": "2x/jour",
+          "duration": "21 jours"
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "name": "Anémie",
+      "symptoms": [
+        "S003",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S018",
+        "S024"
+      ],
+      "product_kit_id": "K003",
+      "advice": {
+        "alimentation": "Consommez des aliments riches en fer (viandes rouges, légumineuses, épinards).",
+        "hygiene": "Associez les aliments riches en fer avec de la vitamine C pour une meilleure absorption.",
+        "repos": "Écoutez votre corps et reposez-vous quand nécessaire.",
+        "hydratation": "Maintenez une bonne hydratation avec de l'eau et des jus naturels.",
+        "activite_physique": "Activité douce à modérée, évitez les efforts intenses."
+      },
+      "recommended_products": [
+        {
+          "product_id": "PR_HEMATODYNE",
+          "dosage": "2 gélules",
+          "frequency": "2x/jour",
+          "duration": "30 jours"
+        },
+        {
+          "product_id": "PR_POLYVITAMINOLE",
+          "dosage": "1 comprimé",
+          "frequency": "1x/jour",
+          "duration": "30 jours",
+          "notes": "Le matin"
+        }
+      ]
+    },
+    {
+      "id": "P004",
+      "name": "Ulcère gastrique",
+      "symptoms": [
+        "S005",
+        "S014",
+        "S016",
+        "S021",
+        "S040",
+        "S043"
+      ],
+      "product_kit_id": "K004",
+      "advice": {
+        "alimentation": "Évitez les aliments épicés, acides, café, alcool. Privilégiez les repas légers.",
+        "hygiene": "Mangez lentement, évitez de vous coucher juste après les repas.",
+        "repos": "Évitez le stress, pratiquez la relaxation et la méditation.",
+        "hydratation": "Buvez de l'eau entre les repas, évitez pendant les repas.",
+        "activite_physique": "Activité modérée, évitez les sports intenses."
+      },
+      "recommended_products": [
+        {
+          "product_id": "PR_THE_RESTFORT",
+          "dosage": "1 sachet",
+          "frequency": "3x/jour",
+          "duration": "14 jours"
+        }
+      ]
+    },
+    {
+      "id": "P005",
+      "name": "Fatigue chronique",
+      "symptoms": [
+        "S003",
+        "S017",
+        "S018",
+        "S025",
+        "S027",
+        "S048",
+        "S049"
+      ],
+      "product_kit_id": "K005",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, riche en vitamines B, magnésium et oméga-3.",
+        "hygiene": "Maintenez un rythme de vie régulier, évitez les écrans avant le coucher.",
+        "repos": "Respectez des horaires de sommeil réguliers, siestes courtes autorisées.",
+        "hydratation": "Buvez suffisamment d'eau, évitez l'excès de caféine.",
+        "activite_physique": "Activité physique douce et progressive, marche quotidienne."
+      },
+      "recommended_products": [
+        {
+          "product_id": "PR_TGZ",
+          "dosage": "2 gélules",
+          "frequency": "2x/jour",
+          "duration": "21 jours"
+        },
+        {
+          "product_id": "PR_REA",
+          "dosage": "1 flacon",
+          "frequency": "1x/jour",
+          "duration": "15 jours"
+        }
+      ]
+    },
+    {
+      "id": "P006",
+      "name": "Infection urinaire",
+      "symptoms": [
+        "S009",
+        "S019",
+        "S020",
+        "S041"
+      ],
+      "product_kit_id": "K006",
+      "advice": {
+        "alimentation": "Évitez les aliments irritants, privilégiez les aliments diurétiques.",
+        "hygiene": "Maintenez une excellente hygiène intime, buvez beaucoup d'eau.",
+        "repos": "Reposez-vous suffisamment pour permettre à l'organisme de combattre l'infection.",
+        "hydratation": "Buvez beaucoup d'eau et de tisanes diurétiques.",
+        "activite_physique": "Évitez les activités qui peuvent irriter la zone."
+      },
+      "recommended_products": [
+        {
+          "product_id": "PR_THE_RESTFORT",
+          "dosage": "1 sachet",
+          "frequency": "2x/jour",
+          "duration": "10 jours"
+        }
+      ]
+    },
+    {
+      "id": "P007",
+      "name": "Grippe",
+      "symptoms": [
+        "S001",
+        "S002",
+        "S003",
+        "S006",
+        "S022",
+        "S023",
+        "S024",
+        "S031"
+      ],
+      "product_kit_id": "K007",
+      "advice": {
+        "alimentation": "Repas légers, soupes, bouillons, fruits riches en vitamine C.",
+        "hygiene": "Lavez-vous les mains fréquemment, utilisez des mouchoirs jetables.",
+        "repos": "Reposez-vous au maximum pour permettre la guérison.",
+        "hydratation": "Buvez beaucoup d'eau, tisanes, jus de fruits.",
+        "activite_physique": "Repos complet jusqu'à la guérison."
+      },
+      "recommended_products": [
+        {
+          "product_id": "PR_TGZ",
+          "dosage": "2 gélules",
+          "frequency": "2x/jour",
+          "duration": "7 jours"
+        },
+        {
+          "product_id": "PR_THE_RESTFORT",
+          "dosage": "1 sachet",
+          "frequency": "2x/jour",
+          "duration": "7 jours"
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "name": "Hypertension artérielle",
+      "symptoms": [
+        "S002",
+        "S011",
+        "S026",
+        "S032",
+        "S033",
+        "S047"
+      ],
+      "product_kit_id": "K008",
+      "advice": {
+        "alimentation": "Régime pauvre en sel, riche en potassium, magnésium et fibres.",
+        "hygiene": "Surveillez régulièrement votre tension, évitez le stress.",
+        "repos": "Assurez-vous d'un sommeil de qualité et suffisant.",
+        "hydratation": "Buvez de l'eau régulièrement, évitez l'excès de caféine.",
+        "activite_physique": "Activité physique régulière et modérée, marche quotidienne."
+      }
+    },
+    {
+      "id": "P009",
+      "name": "Arthrite",
+      "symptoms": [
+        "S028",
+        "S029",
+        "S030",
+        "S043",
+        "S044",
+        "S045"
+      ],
+      "product_kit_id": "K009",
+      "advice": {
+        "alimentation": "Régime anti-inflammatoire, riche en oméga-3, antioxydants.",
+        "hygiene": "Évitez les mouvements brusques, utilisez des techniques de protection articulaire.",
+        "repos": "Alternance repos-activité, évitez la position statique prolongée.",
+        "hydratation": "Buvez suffisamment d'eau pour maintenir la lubrification articulaire.",
+        "activite_physique": "Exercices doux, étirements, natation, marche."
+      }
+    },
+    {
+      "id": "P010",
+      "name": "Dépression",
+      "symptoms": [
+        "S003",
+        "S017",
+        "S025",
+        "S027",
+        "S048",
+        "S049",
+        "S050"
+      ],
+      "product_kit_id": "K010",
+      "advice": {
+        "alimentation": "Alimentation équilibrée, riche en oméga-3, vitamines B et D.",
+        "hygiene": "Maintenez une routine quotidienne, exposez-vous à la lumière naturelle.",
+        "repos": "Respectez des horaires de sommeil réguliers, évitez les écrans tard le soir.",
+        "hydratation": "Buvez suffisamment d'eau, évitez l'excès d'alcool et de caféine.",
+        "activite_physique": "Activité physique régulière, même modérée, marche quotidienne."
+      }
+    },
+    {
+      "id": "P1695",
+      "name": "SIDA",
+      "symptoms": [],
+      "product_kit_id": "K_NEW",
+      "advice": {
+        "alimentation": "N/A",
+        "hygiene": "N/A",
+        "repos": "N/A",
+        "hydratation": "N/A",
+        "activite_physique": "N/A"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "PR_TGZ",
+      "name": "TGZ (TRIGLOBUPHAZIDE)",
+      "description": "Tonifiant général et soutien immunitaire",
+      "price": "18 000"
+    },
+    {
+      "id": "PR_REA",
+      "name": "REA",
+      "description": "Revitalisant énergétique",
+      "price": "18 000"
+    },
+    {
+      "id": "PR_HEMATODYNE",
+      "name": "HEMATODYNE",
+      "description": "Renforce les défenses et stimule la production sanguine",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_POLYVITAMINOLE",
+      "name": "POLYVITAMINOLE",
+      "description": "Complexe de vitamines et minéraux",
+      "price": "9 000"
+    },
+    {
+      "id": "PR_THE_RESTFORT",
+      "name": "THE RESTFORT",
+      "description": "Infusion réparatrice et apaisante",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_CARDIOMAIDE",
+      "name": "Cardiomaide",
+      "description": "Soutien cardio-vasculaire",
+      "price": "18 000"
+    },
+    {
+      "id": "PR_PALUDOXYNE",
+      "name": "Paludoxyne",
+      "description": "Soutien antiparasitaire",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_THE_KADEAUT",
+      "name": "Thé Kadeaut",
+      "description": "Infusion bien-être respiratoire",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_DIABETHYZOLE",
+      "name": "Diabéthyzole",
+      "description": "Soutien de l'équilibre glycémique",
+      "price": "18 000"
+    },
+    {
+      "id": "PR_CALCIUMYNOZE",
+      "name": "Calciumynoze",
+      "description": "Soutien minéral osseux",
+      "price": "12 000"
+    },
+    {
+      "id": "PR_HBP",
+      "name": "HBP (BIPROGESTHYLINE)",
+      "description": "Soutien prostatique / tensions",
+      "price": "18 000"
+    },
+    {
+      "id": "PR_DT6",
+      "name": "DT6 (PHORXYGEXE)",
+      "description": "Soutien vital masculin",
+      "price": "11 250"
+    },
+    {
+      "id": "PR_THE_CANCERYZOLE",
+      "name": "Thé Cancéryzole",
+      "description": "Infusion soutien défenses",
+      "price": "18 000"
+    },
+    {
+      "id": "PR_MERE_POMMADES",
+      "name": "Mère des pommades",
+      "description": "Application topique de confort",
+      "price": "1 500"
+    },
+    {
+      "id": "PR_THE_JUVENIQUA",
+      "name": "Thé Juvéniqua",
+      "description": "Infusion vitalité",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_DEPARAZYTHOMIL",
+      "name": "Déparazytomil",
+      "description": "Soutien déparasitant",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_CURIFERA",
+      "name": "Curifera",
+      "description": "Soutien minceur",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_THE_QUYERAT",
+      "name": "Thé Queyrat",
+      "description": "Infusion tonique",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_NEPHROMEDUS",
+      "name": "Néphromédus",
+      "description": "Soutien rénal",
+      "price": "18 000"
+    },
+    {
+      "id": "PR_POLYVERODE_AIR_PLUS",
+      "name": "Polyverode – Air Plus",
+      "description": "Soutien respiratoire / immunitaire",
+      "price": "12 000"
+    },
+    {
+      "id": "PR_THE_FERTILIA",
+      "name": "Thé Fertilia",
+      "description": "Soutien fertilité féminine",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_TOB",
+      "name": "TOB (Trilybidinole Orgazmycine Bio)",
+      "description": "Soutien équilibre féminin",
+      "price": "9 000"
+    },
+    {
+      "id": "PR_MIEL_PALAIS",
+      "name": "MIEL DE PALAIS",
+      "description": "Miel de qualité",
+      "price": "7 500"
+    },
+    {
+      "id": "PR_MIEL_MERE",
+      "name": "MIEL DE MERE",
+      "description": "Miel de qualité",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_MIEL_MIRE",
+      "name": "MIEL DE MIRE",
+      "description": "Miel de qualité",
+      "price": "6 750"
+    },
+    {
+      "id": "PR_BAUME_THEIRE",
+      "name": "BAUME DE THEIRE",
+      "description": "Baume de confort",
+      "price": "7 500"
+    }
+  ],
+  "product_kits": [
+    {
+      "id": "K001",
+      "name": "Kit Anti-Paludisme AFRIQUADIS",
+      "description": "Soutien contre les symptômes du paludisme avec plantes traditionnelles africaines.",
+      "order_link": "https://afriquadis.com/kit-paludisme"
+    },
+    {
+      "id": "K002",
+      "name": "Kit Équilibre Glycémique AFRIQUADIS",
+      "description": "Aide à la régulation de la glycémie avec des plantes naturelles.",
+      "order_link": "https://afriquadis.com/kit-diabete",
+      "components": [
+        "PR_DIABETHYZOLE",
+        "PR_HBP",
+        "PR_REA",
+        "PR_THE_KADEAUT",
+        "PR_CARDIOMAIDE",
+        "PR_PALUDOXYNE"
+      ]
+    },
+    {
+      "id": "K003",
+      "name": "Kit Vitalité & Fer AFRIQUADIS",
+      "description": "Combat la fatigue liée à l'anémie et renforce l'organisme.",
+      "order_link": "https://afriquadis.com/kit-fer",
+      "components": [
+        "PR_HEMATODYNE",
+        "PR_TGZ",
+        "PR_THE_FERTILIA",
+        "PR_POLYVITAMINOLE"
+      ]
+    },
+    {
+      "id": "K004",
+      "name": "Kit Protection Gastrique AFRIQUADIS",
+      "description": "Protection et réparation de la muqueuse gastrique.",
+      "order_link": "https://afriquadis.com/kit-ulcere",
+      "components": [
+        "PR_HBP",
+        "PR_TGZ",
+        "PR_DEPARAZYTHOMIL",
+        "PR_THE_RESTFORT"
+      ]
+    },
+    {
+      "id": "K005",
+      "name": "Kit Énergie & Vitalité AFRIQUADIS",
+      "description": "Combat la fatigue chronique et restaure l'énergie vitale.",
+      "order_link": "https://afriquadis.com/kit-fatigue",
+      "components": [
+        "PR_PALUDOXYNE",
+        "PR_REA",
+        "PR_THE_QUYERAT"
+      ]
+    },
+    {
+      "id": "K006",
+      "name": "Kit Protection Urinaire AFRIQUADIS",
+      "description": "Protection et nettoyage du système urinaire.",
+      "order_link": "https://afriquadis.com/kit-urinaire"
+    },
+    {
+      "id": "K007",
+      "name": "Kit Immunité & Défense AFRIQUADIS",
+      "description": "Renforcement du système immunitaire et défense contre les infections.",
+      "order_link": "https://afriquadis.com/kit-immunite",
+      "components": [
+        "PR_TGZ",
+        "PR_REA",
+        "PR_THE_RESTFORT"
+      ]
+    },
+    {
+      "id": "K008",
+      "name": "Kit Équilibre Tensionnel AFRIQUADIS",
+      "description": "Aide à la régulation de la tension artérielle.",
+      "order_link": "https://afriquadis.com/kit-tension",
+      "components": [
+        "PR_CARDIOMAIDE",
+        "PR_REA",
+        "PR_PALUDOXYNE",
+        "PR_THE_KADEAUT",
+        "PR_DIABETHYZOLE",
+        "PR_CALCIUMYNOZE"
+      ]
+    },
+    {
+      "id": "K009",
+      "name": "Kit Mobilité Articulaire AFRIQUADIS",
+      "description": "Soutien pour la mobilité et le confort articulaire.",
+      "order_link": "https://afriquadis.com/kit-articulations",
+      "components": [
+        "PR_HBP",
+        "PR_THE_KADEAUT",
+        "PR_REA",
+        "PR_CARDIOMAIDE",
+        "PR_CALCIUMYNOZE",
+        "PR_MERE_POMMADES"
+      ]
+    },
+    {
+      "id": "K010",
+      "name": "Kit Équilibre Émotionnel AFRIQUADIS",
+      "description": "Soutien pour l'équilibre émotionnel et le bien-être mental.",
+      "order_link": "https://afriquadis.com/kit-emotions"
+    },
+    {
+      "id": "K011",
+      "name": "Kit Prostate",
+      "description": "Soutien de la prostate.",
+      "order_link": "https://afriquadis.com/kit-prostate",
+      "components": [
+        "PR_THE_CANCERYZOLE",
+        "PR_REA",
+        "PR_DT6",
+        "PR_HBP",
+        "PR_CARDIOMAIDE",
+        "PR_THE_RESTFORT"
+      ]
+    },
+    {
+      "id": "K012",
+      "name": "Kit Asthme",
+      "description": "Soutien respiratoire pour asthme.",
+      "order_link": "https://afriquadis.com/kit-asthme",
+      "components": [
+        "PR_CARDIOMAIDE",
+        "PR_TGZ",
+        "PR_THE_KADEAUT",
+        "PR_MERE_POMMADES"
+      ]
+    },
+    {
+      "id": "K013",
+      "name": "Kit Tumeur / Cancer",
+      "description": "Soutien global pendant les tumeurs.",
+      "order_link": "https://afriquadis.com/kit-cancer",
+      "components": [
+        "PR_THE_CANCERYZOLE",
+        "PR_HBP",
+        "PR_TGZ",
+        "PR_REA",
+        "PR_HEMATODYNE",
+        "PR_THE_JUVENIQUA",
+        "PR_PALUDOXYNE",
+        "PR_DEPARAZYTHOMIL",
+        "PR_POLYVITAMINOLE"
+      ]
+    },
+    {
+      "id": "K014",
+      "name": "Kit Perte de Poids",
+      "description": "Programme minceur.",
+      "order_link": "https://afriquadis.com/kit-minceur",
+      "components": [
+        "PR_CURIFERA",
+        "PR_DIABETHYZOLE",
+        "PR_THE_JUVENIQUA",
+        "PR_DEPARAZYTHOMIL",
+        "PR_POLYVITAMINOLE"
+      ]
+    },
+    {
+      "id": "K015",
+      "name": "Kit Epilepsie",
+      "description": "Soutien neurologique.",
+      "order_link": "https://afriquadis.com/kit-epilepsie",
+      "components": [
+        "PR_CARDIOMAIDE",
+        "PR_REA",
+        "PR_TGZ",
+        "PR_THE_QUYERAT"
+      ]
+    },
+    {
+      "id": "K016",
+      "name": "Kit Hépatite",
+      "description": "Soutien du foie.",
+      "order_link": "https://afriquadis.com/kit-hepatite",
+      "components": [
+        "PR_NEPHROMEDUS",
+        "PR_REA",
+        "PR_TGZ",
+        "PR_CURIFERA",
+        "PR_THE_JUVENIQUA",
+        "PR_DEPARAZYTHOMIL",
+        "PR_HBP",
+        "PR_POLYVERODE_AIR_PLUS"
+      ]
+    },
+    {
+      "id": "K017",
+      "name": "Kit Fécondité Féminine",
+      "description": "Soutien fertilité.",
+      "order_link": "https://afriquadis.com/kit-fertilite",
+      "components": [
+        "PR_THE_FERTILIA",
+        "PR_CARDIOMAIDE",
+        "PR_DEPARAZYTHOMIL",
+        "PR_TGZ",
+        "PR_HBP"
+      ]
+    },
+    {
+      "id": "K018",
+      "name": "Kit des Yeux",
+      "description": "Soutien vision.",
+      "order_link": "https://afriquadis.com/kit-yeux",
+      "components": [
+        "PR_PALUDOXYNE",
+        "PR_CARDIOMAIDE",
+        "PR_POLYVITAMINOLE",
+        "PR_HBP"
+      ]
+    },
+    {
+      "id": "K019",
+      "name": "Kit Orgasme Féminin",
+      "description": "Soutien bien-être féminin.",
+      "order_link": "https://afriquadis.com/kit-orgasme-feminin",
+      "components": [
+        "PR_TOB",
+        "PR_HBP",
+        "PR_THE_FERTILIA"
+      ]
+    },
+    {
+      "id": "K020",
+      "name": "Kit Problème Cardiaque",
+      "description": "Soutien cardio.",
+      "order_link": "https://afriquadis.com/kit-cardiaque",
+      "components": [
+        "PR_REA",
+        "PR_CARDIOMAIDE",
+        "PR_THE_KADEAUT"
+      ]
+    },
+    {
+      "id": "K021",
+      "name": "Kit Problème Sexuel Homme",
+      "description": "Soutien masculin.",
+      "order_link": "https://afriquadis.com/kit-sexuel-homme",
+      "components": [
+        "PR_HBP",
+        "PR_DT6",
+        "PR_CALCIUMYNOZE",
+        "PR_THE_FERTILIA"
+      ]
+    },
+    {
+      "id": "K022",
+      "name": "Kit Sinusite",
+      "description": "Soutien des sinus.",
+      "order_link": "https://afriquadis.com/kit-sinusite",
+      "components": [
+        "PR_TGZ",
+        "PR_HBP",
+        "PR_THE_RESTFORT"
+      ]
+    },
+    {
+      "id": "K023",
+      "name": "Kit Hématie",
+      "description": "Soutien hématologique.",
+      "order_link": "https://afriquadis.com/kit-hematie",
+      "components": [
+        "PR_HEMATODYNE",
+        "PR_REA",
+        "PR_CALCIUMYNOZE",
+        "PR_THE_KADEAUT"
+      ]
+    },
+    {
+      "id": "K024",
+      "name": "Kit Goitre",
+      "description": "Soutien thyroïde.",
+      "order_link": "https://afriquadis.com/kit-goitre",
+      "components": [
+        "PR_DEPARAZYTHOMIL",
+        "PR_POLYVITAMINOLE",
+        "PR_TGZ",
+        "PR_THE_JUVENIQUA",
+        "PR_HBP"
+      ]
+    },
+    {
+      "id": "K025",
+      "name": "Kit Goutte",
+      "description": "Soutien contre la goutte.",
+      "order_link": "https://afriquadis.com/kit-goutte",
+      "components": [
+        "PR_NEPHROMEDUS",
+        "PR_HBP",
+        "PR_THE_JUVENIQUA",
+        "PR_MERE_POMMADES"
+      ]
+    },
+    {
+      "id": "K026",
+      "name": "Kit Palu Sévère",
+      "description": "Soutien paludisme sévère.",
+      "order_link": "https://afriquadis.com/kit-palu-severe",
+      "components": [
+        "PR_PALUDOXYNE",
+        "PR_HEMATODYNE",
+        "PR_REA"
+      ]
+    }
+  ]
+}

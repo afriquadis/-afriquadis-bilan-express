@@ -1,0 +1,54 @@
+{
+  "symptoms": [
+    {
+      "id": "symp_001",
+      "name": "Maux de tête fréquents",
+      "category": "neurologique"
+    },
+    {
+      "id": "symp_002",
+      "name": "Vertiges",
+      "category": "neurologique"
+    },
+    {
+      "id": "symp_003",
+      "name": "Fatigue",
+      "category": "general"
+    },
+    {
+      "id": "symp_004",
+      "name": "Vision floue",
+      "category": "ophtalmologique"
+    },
+    {
+      "id": "symp_005",
+      "name": "Palpitations",
+      "category": "cardiovasculaire"
+    },
+    {
+      "id": "symp_006",
+      "name": "Saignements de nez",
+      "category": "respiratoire"
+    },
+    {
+      "id": "symp_007",
+      "name": "Soif excessive",
+      "category": "general"
+    },
+    {
+      "id": "symp_008",
+      "name": "Urines fréquentes",
+      "category": "urologique"
+    },
+    {
+      "id": "symp_009",
+      "name": "Amaigrissement inexpliqué",
+      "category": "general"
+    },
+    {
+      "id": "symp_010",
+      "name": "Plaies qui cicatrisent mal",
+      "category": "dermatologique"
+    }
+  ]
+}

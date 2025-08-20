@@ -1,0 +1,238 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "NEPHROMEDUS",
+      "description": "Produit pour le soutien rénal et hépatique",
+      "price": 18000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_002",
+      "name": "CARDIOMAIDE",
+      "description": "Produit pour la santé cardiovasculaire",
+      "price": 18000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_003",
+      "name": "CALCIUMYNOZE",
+      "description": "Supplément de calcium et minéraux",
+      "price": 12000,
+      "currency": "XOF",
+      "category": "supplement",
+      "isActive": true
+    },
+    {
+      "id": "prod_004",
+      "name": "HEMATODYNE",
+      "description": "Produit pour améliorer la production de globules rouges",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_005",
+      "name": "PALUDOXYNE",
+      "description": "Produit pour le traitement du paludisme",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_006",
+      "name": "HBP (BIPROGESTHYLINE)",
+      "description": "Produit pour l'hypertrophie bénigne de la prostate",
+      "price": 18000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_007",
+      "name": "DT6 (PHORXYGEXE)",
+      "description": "Produit pour la performance sexuelle masculine",
+      "price": 11250,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_008",
+      "name": "TGZ (TRIGLOBUPHAZIDE)",
+      "description": "Produit pour la gestion du poids et du métabolisme",
+      "price": 18000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_009",
+      "name": "DIABETHYZOLE",
+      "description": "Produit pour la gestion du diabète",
+      "price": 18000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_010",
+      "name": "CURIFERA",
+      "description": "Produit pour la détoxification et la purification",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_011",
+      "name": "TOB (Trilybidinole Orgazmycine Bio)",
+      "description": "Produit pour améliorer la satisfaction sexuelle féminine",
+      "price": 9000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_012",
+      "name": "REA (Renfordizyme Arthroliazyde)",
+      "description": "Produit pour la santé articulaire et la mobilité",
+      "price": 18000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_013",
+      "name": "POLYVITAMINOLE",
+      "description": "Complexe multivitaminé complet",
+      "price": 9000,
+      "currency": "XOF",
+      "category": "supplement",
+      "isActive": true
+    },
+    {
+      "id": "prod_014",
+      "name": "POLYVERODE - AIR PLUS",
+      "description": "Produit pour la santé respiratoire et pulmonaire",
+      "price": 12000,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_015",
+      "name": "DEPARASYTHOMIL",
+      "description": "Produit antiparasitaire et détoxifiant",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "medicament",
+      "isActive": true
+    },
+    {
+      "id": "prod_016",
+      "name": "THE KADEAUT",
+      "description": "Thé pour la santé cardiovasculaire et la relaxation",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "the",
+      "isActive": true
+    },
+    {
+      "id": "prod_017",
+      "name": "THE JUVENYQUA",
+      "description": "Thé pour la jeunesse et la vitalité",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "the",
+      "isActive": true
+    },
+    {
+      "id": "prod_018",
+      "name": "THE RESTFORT",
+      "description": "Thé pour le repos et la récupération",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "the",
+      "isActive": true
+    },
+    {
+      "id": "prod_019",
+      "name": "THE QUEYRAT",
+      "description": "Thé pour la santé neurologique et la concentration",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "the",
+      "isActive": true
+    },
+    {
+      "id": "prod_020",
+      "name": "THE FERTILIA",
+      "description": "Thé pour améliorer la fertilité féminine",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "the",
+      "isActive": true
+    },
+    {
+      "id": "prod_021",
+      "name": "THE CANCERYZOLE",
+      "description": "Thé de soutien pour les patients atteints de cancer",
+      "price": 18000,
+      "currency": "XOF",
+      "category": "the",
+      "isActive": true
+    },
+    {
+      "id": "prod_022",
+      "name": "MIEL DE PALAIS",
+      "description": "Miel royal pour la vitalité et l'énergie",
+      "price": 7500,
+      "currency": "XOF",
+      "category": "miel",
+      "isActive": true
+    },
+    {
+      "id": "prod_023",
+      "name": "MIEL DE MERE",
+      "description": "Miel maternel pour la santé et le bien-être",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "miel",
+      "isActive": true
+    },
+    {
+      "id": "prod_024",
+      "name": "MIEL DE MIRE",
+      "description": "Miel de guérison et de récupération",
+      "price": 6750,
+      "currency": "XOF",
+      "category": "miel",
+      "isActive": true
+    },
+    {
+      "id": "prod_025",
+      "name": "MERE DES POMMADES",
+      "description": "Pommade polyvalente pour les soins externes",
+      "price": 1500,
+      "currency": "XOF",
+      "category": "pommade",
+      "isActive": true
+    },
+    {
+      "id": "prod_026",
+      "name": "BAUME DE THEIRE",
+      "description": "Baume thérapeutique pour les douleurs articulaires",
+      "price": 7500,
+      "currency": "XOF",
+      "category": "pommade",
+      "isActive": true
+    }
+  ]
+}
