@@ -10,8 +10,8 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   // Base path pour GitHub Pages
-  basePath: process.env.NODE_ENV === 'production' ? '/afriquadis-bilan-express' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/afriquadis-bilan-express/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/-afriquadis-bilan-express' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/-afriquadis-bilan-express/' : '',
 };
 
 module.exports = nextConfig;
