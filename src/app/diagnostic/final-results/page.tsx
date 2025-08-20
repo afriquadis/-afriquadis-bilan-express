@@ -2,10 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
-import { useRouter } from 'next/navigation';
 import { runDiagnostic } from '@/lib/diagnosticEngineEnrichi';
 import { getSymptomName, getProductKitById } from '@/lib/diagnosticEngineEnrichi';
-import WhatsAppButton from '@/components/WhatsAppButton';
 import ErrorBoundary from '@/components/ErrorBoundary';
 
 interface PatientProfile {
@@ -21,7 +19,6 @@ interface SimpleSymptom {
 }
 
 export default function FinalResultsPage() {
-  const router = useRouter();
   const { data: session } = useSession();
 
   const [patient, setPatient] = useState<PatientProfile | null>(null);
