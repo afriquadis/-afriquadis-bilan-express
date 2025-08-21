@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "AFRIQUADIS - Bilan Express",
+    "slug": "afriquadis-bilan-express",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/android-chrome-192x192.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./public/android-chrome-512x512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2D5016"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/android-chrome-192x192.png",
+        "backgroundColor": "#2D5016"
+      },
+      "package": "com.afriquadis.bilanexpress"
+    },
+    "web": {
+      "favicon": "./public/android-chrome-192x192.png",
+      "manifest": "./public/manifest.json"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
