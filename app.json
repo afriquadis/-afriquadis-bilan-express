@@ -25,13 +25,8 @@
       "package": "com.afriquadis.bilanexpress"
     },
     "web": {
-      "favicon": "./public/android-chrome-192x192.png",
-      "manifest": "./public/manifest.json"
+      "favicon": "./public/android-chrome-192x192.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "your-project-id"
-      }
-    }
+    "platforms": ["android", "ios", "web"]
   }
 }
